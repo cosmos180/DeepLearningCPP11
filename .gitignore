@@ -30,3 +30,9 @@
 *.exe
 *.out
 *.app
+.vscode
+bazel-DeepLearningCPP11
+bazel-bin
+bazel-genfiles
+bazel-out
+bazel-testlogs
