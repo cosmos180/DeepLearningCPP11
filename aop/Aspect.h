@@ -9,7 +9,6 @@ struct has_member_##member \
 private:\
     template<typename U>\
     static auto Check(int) -> decltype(std::declval<U>().member(std::declval<Args>()...), std::true_type());\
-
     template<typename U>\
     static std::false_type Check(...);\
 public:\
