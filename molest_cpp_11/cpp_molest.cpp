@@ -128,6 +128,17 @@ namespace CPPMolest {
         delete [] dstPrt;
         dstPrt = nullptr;
     }
+
+    template<class T, class Enable = void>
+    class A{};
+    
+    template<class T>
+    class A<T, typename std::enable_if<std::is_floating_point<T>::valye>::type> {};
+    
+    void molest_enable_if() {
+        A<double> a;
+        A<int> b;
+    }
     
 }
 
