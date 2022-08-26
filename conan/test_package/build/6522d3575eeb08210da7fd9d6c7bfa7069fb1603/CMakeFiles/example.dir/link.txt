@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++    -m64 -stdlib=libc++ -O3 -DNDEBUG  -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names      CMakeFiles/example.dir/example.cpp.o  -o bin/example  -lCONAN_PKG::jsoncpp 

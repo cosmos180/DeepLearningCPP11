@@ -1,0 +1,6 @@
+[requires]
+ DeepLearningCPP/0.1@bughero/Testing
+ jsoncpp/1.9.5
+
+ [generators]
+ cmake
